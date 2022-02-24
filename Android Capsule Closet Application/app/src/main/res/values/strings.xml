@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ClothesAppTest</string>
+    <string name="home_fragment">Home</string>
+    <string name="collection_fragment">Collection</string>
+    <string name="user_fragment">User</string>
+    <string name="camera_button">Camera</string>
+    <string name="gallery_button">Gallery</string>
+    <string name="description">Description</string>
+    <string name="category">Category</string>
+    <string name="status">Status</string>
+    <string name="brand">Brand</string>
+    <string name="color">Color</string>
+    <string name="size">Size</string>
+    <string name="price">Price</string>
+    <string name="username">Username</string>
+
+
+</resources>
