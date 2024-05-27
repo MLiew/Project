@@ -1,0 +1,29 @@
+Python源程序文件夹中有11个Python源程序，分别为：
+1. web_crawl_test.py：爬虫程序；
+2. data_prepro.py：轨道数据预处理程序；
+3. tle_clustering.py：聚类程序；
+4. tle_classification.py：分类程序；
+5. relative_distance.py：航天器相对距离计算模块；
+6.rel_dist_prepro_cluster.py：航天器相对距离数据预处理模块；
+7. produce_latex_report.py：自动生成报告模块；
+8. HomePage.py：软件主界面模块；
+9. SaveFilePage.py：软件第二个界面模块；
+10. PredictPage.py：软件第三个界面模块；
+11. PredictProgress.py：软件第四个界面。
+
+软件开发语言：Python；
+编辑器：Visual Studio Code；
+开发环境：Anaconda(Python发行版)
+Python版本：3.6.8(64-bit)
+需要安装的库：	PyQt5, Matplotlib, sklearn, PyLaTeX, bs4, pandas, numpy, 
+		csv, math, os, sys, time, functools, multiprocessing, seaborn等等。
+
+软件操作方法：
+1.打开HomePage.py，点击运行即可；
+2. 软件界面弹出首页，点击"Next"；
+3. 软件进入第二个界面，选择文件保存路径及轨道数据聚类模型使用的聚类算法；
+4. 点击"Confirm"按钮，等待进度条至100%，聚类模型完成训练；
+5. 点击"Next"按钮，进入第三个界面；
+6. 根据界面上的提示，输入正确单位和格式的卫星轨道数据；
+7. 点击"Predict"按钮，跳转至第四个界面；
+8. 等待进度条运行至100%，分析结果报告在文件保存路径中。
