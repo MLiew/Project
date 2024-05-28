@@ -2,11 +2,12 @@
 <b>Aim and objective</b> <br>
 The purpose of this study is to analyze the collision risk of orbiting spacecraft according to the density of spacecraft distribution in space.
 This project uses data mining technology, which are clustering and classification method to filter out the spacecraft with higher collision risk with the target satellite, providing support for satellite initial orbit planning and collision avoidance. 
-The methodology proposed in this paper consists following procedures. 
+The methodology proposed in this paper consists following procedures: 
 1. a clustering model and then a classification model are built on two-line element set(TLE).
 2. orbital data for prediction is then input to the prediction model, spacecraft with similar orbital data will be output.
 3. another clustering model is built after the computing of relative distances between data input and similar orbital data, returning the amount and relatives distances between data input and neighboring spacecraft.
 The data mining models in this paper has shown the ability to select spacecraft which have high collision risk with the data input.
+</br>
 
 <b>Design the Python program</b>  
 The flowchart of the program is as follows: 
@@ -28,12 +29,12 @@ There are 11 Python source programs in the Python source program folder, which a
 10. PredictPage.py: The third interface module of the software;
 11. PredictProgress.py: The fourth interface of the software.
 
-Software development language: Python;
-Editor: Visual Studio Code;
-Development environment: Anaconda (Python distribution)
-Python version: 3.6.8(64-bit)
-Libraries that need to be installed: PyQt5, Matplotlib, sklearn, PyLaTeX, bs4, pandas, numpy,
-csv, math, os, sys, time, functools, multiprocessing, seaborn, etc.
+<b> Requirements   </b>  
+1. Software development language: Python;  
+2. Editor: Visual Studio Code;  
+3. Development environment: Anaconda (Python distribution)  
+4. Python version: 3.6.8(64-bit)  
+5. Libraries that need to be installed: PyQt5, Matplotlib, sklearn, PyLaTeX, bs4, pandas, numpy, csv, math, os, sys, time, functools, multiprocessing, seaborn, etc.
 
 ## HOW TO USE
 1. Open HomePage.py and click Run;
